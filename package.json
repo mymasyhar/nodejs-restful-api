@@ -1,0 +1,41 @@
+{
+  "name": "learn-nodejs-restful-api",
+  "version": "1.0.0",
+  "description": "learn nodeJS build contact management API",
+  "main": "src/main.js",
+  "type": "module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest -i"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "author": "Masyhar M",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.6.0",
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
+    "uuid": "^9.0.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.5",
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.5.10",
+    "@types/supertest": "^2.0.16",
+    "@types/uuid": "^9.0.7",
+    "@types/winston": "^2.4.4",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "prisma": "^5.6.0",
+    "supertest": "^6.3.3"
+  }
+}
