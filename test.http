@@ -1,0 +1,25 @@
+POST http://localhost:3000/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username" : "hannah",
+  "password" : "secret",
+  "name" : "hannah montana"
+}
+
+###
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username" : "hannah",
+  "password" : "secret"
+}
+
+###
+DELETE http://localhost:3000/api/users/logout
+Content-Type: application/json
+Accept: application/json
+Authorization: de80d318-eb3a-4738-9212-0df088b9f090
